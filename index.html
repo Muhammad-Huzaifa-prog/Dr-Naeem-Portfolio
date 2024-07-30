@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Dr Naeem Ul Islam Portfolio</title>
+    <style>
+        
+        .nav a{
+            float: right;
+            margin: 20px;
+          
+            color: rgb(4, 4, 8);    
+            text-decoration: none;
+        }
+       
+        .nav :hover{
+            color: rgb(244, 244, 253);
+        }
+        .circle{
+            border-radius: 50%;
+            text-align: center;
+            top: 50%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            padding: 30%;
+        }
+        .circle img{
+            border-radius: 50%;
+            padding-left: 60px;
+            width: 300px;
+            height: 300px;
+            max-width:auto;
+            height:auto;
+           
+        }
+        #header{
+            
+            border-radius: 15px;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .about{
+            position: absolute;
+            top: 50%;
+            left: 65%;
+            transform: translate(-50%, -50%);
+            text-align: left;
+            
+
+        }
+        body {
+  display: flex;
+  flex-direction: column;
+  color: blanchedalmond;
+  background: linear-gradient(to bottom, green, yellow) no-repeat 60% 50% / 100% 100%;
+  margin: 0;
+  overflow: hidden;
+  
+
+}
+html{
+    height: 100%;
+}
+ hr{
+    position: fixed;
+    bottom: 90px;
+    left: 0;
+    width: 100%;
+ } 
+.link{
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    } 
+.link a{
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+}
+.link a:hover{
+    color: white;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(500px) scale(.2);
+  }
+  100% {
+    transform: translateX(0px) scale(1);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(300px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes expand {
+  0% {
+    transform: translateX(1400px);
+  }
+  100% {
+    transform: translateX(90px);
+  }
+}
+
+
+    </style>
+</head>
+<body>
+   
+    <div id="header">
+
+    <p style="margin-left: 15px;display: inline;color: black;" > Dr Naeem Ul Islam(Phd)</p> 
+    
+    <div class="nav">
+        <a href="resume.html">Resume</a>
+        <a href="research.html">Research</a>
+       <a href="projects.html">Projects</a>
+    </div>
+</div>
+<div class="about">
+    <h1 style="font-size:50px;white-space: nowrap;">Dr Naeem Ul Islam</h1>
+    <h3>About Me</h3>
+    <P style="font-size: small;">I obtained a Ph.D. in AI from Sungkyunkwan University in 2019. I then worked at Jeonbuk National University, focusing on AI for terrain analysis in autonomous agriculture robots and RNA sequence modifications. Currently, I'm an Assistant Professor at NUST, Pakistan, where I specialize in Autonomous Robot Navigation, fault prediction in electrical and photovoltaic modules, and enhancing smart infrastructure with deep learning. My expertise includes AI, deep learning, computer vision, and machine learning, with experience in TensorFlow and PyTorch. My research interests are Explainability of Deep Neural Networks, Content Modification in images, Gene Analysis, and NLP using Deep Learning.
+    </P>
+
+    
+</div>
+    <div class="circle">
+        <img src="C:\Users\muzaf\Pictures\naeem.png">
+    </div>
+    <br>
+    <hr>
+    <div class="link">
+        <a href="mailto:naeem.islam@ceme.nust.edu.pk">Gmail</a>
+        <a href="https://www.linkedin.com/in/naeem-ul-islam-5b23301aa?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BkgKdXbMtQB6vEb%2BlBW%2B0NA%3D%3D">Linkedin</a>
+        <a href="https://www.cse.yzu.edu.tw/en/people/professor?name=Naeem%20Ul%20Islam">Yuan Zu Profile</a>    
+    </div>
+
+    
+
+    
+</body>
+</html>
